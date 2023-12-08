@@ -46,7 +46,9 @@ public class Left extends VBox {
         TextField numberField = new TextField();
         TextField searchField = new TextField();
         Button displayBtn = new Button("Display");
+        displayBtn.setPrefSize(100,20);
         Button searchBtn = new Button("Search");
+        searchBtn.setPrefSize(100,20);
 
 
         HBox hBox1 = new HBox();
@@ -79,8 +81,8 @@ public class Left extends VBox {
         label7.setPadding(new Insets(0,0,70,20));
 
         /* 设置操作部分的样式 */
-        numberLabel.setPadding(new Insets(0,65,0,10));
-        searchLabel.setPadding(new Insets(0,40,0,10));
+        numberLabel.setPadding(new Insets(0,55,0,5));
+        searchLabel.setPadding(new Insets(0,30,0,5));
 
     }
 }
